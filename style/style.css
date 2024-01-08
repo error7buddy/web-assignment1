@@ -1,0 +1,254 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/******************Bannner-2 style************************/
+.banner{
+    width: 1320px;
+    height: 600px; 
+    background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url('/resources/Banner Image.png');
+    border-radius: 16px;
+    padding: auto;
+    margin: auto;
+}
+.titel-1 {
+    color: white;
+    font-size: 32px;
+    font-family: Merriweather;
+    font-weight: 400;
+    margin-bottom: 2px;
+    text-align: center;
+    padding-top: 10%;
+    
+}
+.titel-2 {
+    color: white;
+    font-size: 72px;
+    font-family: Merriweather;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 0%;
+}
+/******************Offer area************************/
+.offer{
+    text-align: center; 
+    color:#FF0000; 
+    font-size: 88px;
+    font-family: Inter; 
+    font-weight: 700; 
+    margin-bottom: 48px;
+    font-family: 'Inter';
+    
+}
+.deals{
+        text-align: center;
+        color: #FF0000;
+        font-size: 24px;
+        font-weight: 500;
+        font-family: 'Inter';
+}
+
+.ct{
+color: #070211;
+font-size: 48px;
+font-weight: 700;
+text-align: center;
+margin-top: 0;
+font-family: 'Inter';
+}
+.new-year-pic1{
+    display:block;
+    margin:0 auto;
+    padding-bottom: 10%;
+}
+.new-year-pic{
+    display:block;
+    margin:0 auto;
+    padding-bottom: 10%;
+
+
+
+/******************Bannner-2 style************************/
+}
+.banner-2{
+    padding-top: 5%;
+    width: 1320px;
+    height: 600px; 
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('/resources/Vectorrr.png');
+    border-radius: 16px;
+    padding: auto;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+.titel-3 {
+    color: rgba(255, 255, 255, 0.80);
+
+    font-family: Inter;
+    font-size: 18px;
+    max-width: 697px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 5%;
+    
+}
+.titel-4 {
+    color: white;
+    font-size: 72px;
+    font-family: Merriweather;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.btn-join{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700; 
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+/******************addresss************************/
+.address{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+  
+}
+.red{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600; 
+    text-transform: capitalize;
+}
+.address-div{
+    padding-bottom: 2%;
+}
+
+.btn-2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: #F00;
+    display: inline-flex;
+    padding: 16px 32px;
+    gap: 10px;
+    border: none;
+    display:block;
+    margin:0 auto;
+}
+/******************coming soon************************/
+.container-3{
+    display: flex;
+    padding-top: 10%;
+
+}
+.coming-soon-description{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.coming-soon-description2{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.coming-soon-description3{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 393px;
+   
+}
+.coming{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 5%;
+}
+.coming-2{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;  
+    font-weight: 400;
+    max-width: 276px;   
+
+}
+.new-year-pic{
+    margin: 0;
+    padding: 0;
+}
+.coming-soon{
+    padding-right:10%;
+    padding-left:10%;
+    align-items: center;
+}
+.coming-soon-pic{
+    padding-right:20%;
+    align-items: center;
+}
+coming-soon-pic-and-description{
+    align-items: center;
+    
+}
+
+/******************functional************************/
+.functional-h1{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10%;
+   
+}
+.functional-h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+.functional-h3{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 1064px;
+    display:block;
+    margin:auto;
+    text-align: center;
+    padding-top: 0;
+}
+.red2{
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;   
+}
