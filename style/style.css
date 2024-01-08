@@ -80,11 +80,28 @@ font-family: 'Inter';
     width: 1320px;
     height: 600px; 
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('/resources/Vectorrr.png');
+    background-size: cover;
     border-radius: 16px;
     padding: auto;
     margin: auto;
     background-repeat: no-repeat;
+    position: relative;;
 }
+.twenty-four{
+    height: 100%;
+    width: 100%;
+    background-image: url('/resources/Group 70.png');
+    margin: 0;
+    padding: 0;
+    background-position: right top 50%;
+    background-repeat: no-repeat;
+  
+}
+.new-year-pic11{
+        position: absolute;
+        position: top right;
+}
+
 .titel-3 {
     color: rgba(255, 255, 255, 0.80);
 
@@ -251,4 +268,38 @@ coming-soon-pic-and-description{
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;   
+}
+.functional-h3{
+ 
+    padding: 0;
+   
+}
+
+/******************Bannner-2 style************************/
+.banner-3{
+    padding-top: 5%;
+    width: 1320px;
+    height: 600px; 
+    background:url('/resources/Rectangle 1.png');
+    border-radius: 16px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position:bottom 70% right;
+    position: relative;
+}
+.banner-foot{
+    width: 1320px;
+    height: 229px;
+    background:url('/resources/Rectangle 2.png');
+    position: absolute;
+    top: 70%; 
+    position: relative;
+}
+.gift{
+    width: 500px;
+    height: 500px;
+    background:url('/resources/Group 75.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    bottom: 20%;
 }
