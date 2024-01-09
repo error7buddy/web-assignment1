@@ -95,11 +95,10 @@ font-family: 'Inter';
     padding: 0;
     background-position: right top 50%;
     background-repeat: no-repeat;
-  
 }
 .new-year-pic11{
-        position: absolute;
-        position: top right;
+    display: flex;
+    float: top;
 }
 
 .titel-3 {
@@ -290,16 +289,151 @@ coming-soon-pic-and-description{
 .banner-foot{
     width: 1320px;
     height: 229px;
-    background:url('/resources/Rectangle 2.png');
+    
     position: absolute;
     top: 70%; 
     position: relative;
 }
 .gift{
-    width: 500px;
-    height: 500px;
-    background:url('/resources/Group 75.png');
-    position: absolute;
+    width: 600px;
+    height: 600px;
     background-repeat: no-repeat;
-    bottom: 20%;
+}
+.port-h1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px; 
+    font-weight: 500;
+    padding-bottom: 22px;
+    margin: 0;
+    text-align: left;
+}
+.port-h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-bottom: 22px;
+    margin: 0;
+    text-align: left;
+}
+.port-h3{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 896px;
+    padding-bottom: 10%;
+    margin: 0;
+    text-align: left;
+}
+
+
+
+
+#outer { 
+    display: flex; 
+  
+    width: 1000px; 
+} 
+
+.div { 
+    align-items: center;
+    height: 200px;
+    width: 1000px; 
+    margin: 0; 
+    padding: 0;
+    background-color: green; 
+}
+#outer2 { 
+    display: flex; 
+    height: 500px; 
+    width: 1000px; 
+} 
+
+.div2 { 
+    height: 200px;
+    width: 1000px; 
+    margin: 0; 
+    padding: 0;
+    background-color: green; 
+    background-size: contain;
+}
+#pic-1{
+    background: url('/resources/Rectangle 3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display:block;
+    margin:auto;
+}
+#pic-2{
+    background: url('/resources/Rectangle 4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display:block;
+    margin:auto;
+}
+#pic-3{
+    background: url('/resources/Rectangle 5.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display:block;
+    margin:auto;
+}
+#pic-4{
+    background: url('/resources/Rectangle 6.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+#pic-5{
+    background: url('/resources/Rectangle 7.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#pic-6{
+    background: url('/resources/Rectangle 8.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.subst-1{
+    color: #070211;
+    font-size: 48px;
+    font-family: Merriweather;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+}
+.subst-2{
+
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+   
+    max-width: 896px;
+    display:block;
+    margin:auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.subst-3{
+    display:block;
+    margin:auto;
+
+}
+.input-box{
+    display: flex;
+}
+.input{
+    display:block;
+    margin:auto;
+    padding: 0;
+}
+.subscribe-button{
+    display:block;
+    margin:auto;
+    padding: 0;
+    
 }
